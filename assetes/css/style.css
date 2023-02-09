@@ -1,0 +1,116 @@
+
+.body {
+  font-family: "TT Lakes", "Arial", sans-serif;
+  font-size: 0.875rem;
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+
+/* Header */
+
+.header {
+  border-bottom: 1px solid #d9fff5;
+  background-color: #ffffff;
+}
+
+.header--desktop {
+  background-color: #f8f8f8;
+  display: none;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18.5px 16px;
+}
+
+
+/* Левая часть меню*/
+
+.header__left-side {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header__item-burger {
+  background-image: url(..\assetes\img\burger.svg);
+    margin-right: 16px;
+}
+
+.header__divider {
+  background-color: #eaeaea;
+  width: 2px;
+  height: 32px;
+}
+
+
+.header__divider2 {
+  background-color: #eaeaea;
+  width: 2px;
+  height: 32px;
+}
+
+
+
+/* Правая часть меню */
+.header__buttons-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-width: 100px;
+    height: 40px;
+    margin-left: auto;
+}
+
+.header__buttons-hidden {
+    display: flex;
+}
+
+
+/* Скрытые кнопки меню */
+
+.header__item--call {
+  background-image: url(../assetes/img/call.svg);
+    margin-right: 16px;
+}
+
+.header__item--chat {
+  background-image: url(../assetes/img/chat.svg);
+    margin-right: 16px;
+}
+
+.header__item--profile {
+  background-image: url(../assetes/img/profile.svg);
+}
+
+/* Видимые в mobile кнопки меню */
+.header__buttond-active {
+    display: flex;
+}
+
+.header__divider2 {
+    margin: 0 20px;
+}
+
+.header__item--repair {
+  background-image: url(../assetes/img/repair.svg);
+    margin-right: 16px;
+}
+
+.header__item--check-status {
+  background-image: url(../assetes/img/checkstatus.svg);
+}
+
+@media screen and (max-width:767px) {
+    .hidden {
+        display: none;
+    }
+
+
+}
+
+
+
