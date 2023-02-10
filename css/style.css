@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'TT Lakes-Thin';
-    src: url(./assets/fonts/TTLakes-Thin.woff);
+    src: url(../fonts/TTLakes-Thin.woff);
     font-weight: normal;
     font-style: normal;
     }
@@ -54,7 +54,7 @@ body {
 }
 
 .header__item-burger {
-  background-image: url(./assetes/img/burger.svg);
+  background-image: url(../img/burger.svg);
 }
 
 .header__divider1 {
@@ -95,17 +95,17 @@ body {
 
 
 .header__item--call {
-  background-image: url(./assetes/img/call.svg);
+  background-image: url(../img/call.svg);
     margin-right: 16px;
 }
 
 .header__item--chat {
-  background-image: url(./assetes/img/chat.svg);
+  background-image: url(../img/chat.svg);
     margin-right: 16px;
 }
 
 .header__item--profile {
-  background-image: url(./assetes/img/profile.svg);
+  background-image: url(../img/profile.svg);
 }
 
 
@@ -118,12 +118,12 @@ body {
 }
 
 .header__item--repair {
-  background-image: url(./assetes/img/repair.svg);
+  background-image: url(../img/repair.svg);
     margin-right: 16px;
 }
 
 .header__item--check-status {
-  background-image: url(./assetes/img/checkstatus.svg);
+  background-image: url(../img/checkstatus.svg);
 }
 
 .content {
@@ -261,7 +261,7 @@ body {
 }
 .button__icon {
   display: inline-block;
-  background-image: url(./assetes/img/icon.svg);
+  background-image: url(../img/icon.svg);
   background-repeat: no-repeat;
   width: 8px;
   height: 12px;
